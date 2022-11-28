@@ -50,6 +50,10 @@ The first command will build the projet, while second command will run the appli
 How to test?
 ------------
 
-To test system, there are some seed data in database will be dump on startup of application automatically. To access the data use import the postman projects and trigger the commands by simply sending request. e.g Get All Plots endpoint or Get Irrigation Slot. However, there are other commands also exsist in postman. Please find the postman project in resour folder.
+After application started, application can be accessible on below address.
+
+`http://localhost:8080/`
+
+To test system, there are some seed data in database will be dump on startup of application automatically. To access the data via endpoint, import the postman projects and trigger the commands by simply sending request. e.g Get All Plots endpoint or Get Irrigation Slot from postman project. However, there are other commands also exsist in postman. Please find the postman project in resour folder.
 
 `irrigation/src/main/resources/IrrigationSystem.postman_collection.json`
